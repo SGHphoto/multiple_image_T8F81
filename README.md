@@ -82,7 +82,7 @@
   ![T8F81 EVB](./Document/T8_EVB.jpg)
 
   ## 注册通过后，可以下载芯片手册以及软件资料。
-    https://www.efinixinc.com/shop/index.php
+    ![Efinix account register]()（https://www.efinixinc.com/shop/index.php）
 
   ## Project name
 
