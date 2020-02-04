@@ -83,7 +83,7 @@
 
 ## 注册通过后，可以下载芯片手册以及软件资料。
 
-[Efinix Account Register Link](https://wwww.efinixinc.com/shop/index.php)
+[Efinix Account Register Link](www.efinixinc.com/shop/index)
 
   ## Project name
 
