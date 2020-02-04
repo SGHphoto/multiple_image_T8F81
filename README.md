@@ -40,6 +40,7 @@
   - README.md  the project readme file
   - Efinix 的官网是 www.efinixinc.com
 
+
   Efinix FPGA 的第一个低成本FPGA家族是 Trion :
   - you can register to access the documentation
   - we will provide the EVB and software for your evaluation.
@@ -80,6 +81,8 @@
   -
   ![T8F81 EVB](./Document/T8_EVB.jpg)
 
+  ## 注册通过后，可以下载芯片手册以及软件资料。
+    https://www.efinixinc.com/shop/index.php
 
   ## Project name
 
