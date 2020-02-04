@@ -133,7 +133,7 @@
 
   - helleoworld.v  
 
-  每个设计镜像就是改变helloworld.v中的delay参宿
+  每个设计镜像就是改变helloworld.v中的DELAY_SIZE
 
 
   ## Verilog parameter
@@ -141,7 +141,7 @@
   - CBSEL 就是imag选择的管脚，T4,T8的是将其外接的
   - 分别改动如下代码中的**DELAY_SIZE** 为8,10,12,14
   - 每次改动重新编译， 生成一个新的hex文件， 在outflow目录下
-  
+
 ```verilog
 
   module helloworld (led, clk, rstn);//reverse);
