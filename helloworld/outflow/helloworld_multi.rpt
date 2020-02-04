@@ -1,0 +1,10 @@
+**** Efinity Programming Tool Generation Report *****
+
+Time: 2018-06-04 13:57
+Generated Multi Image output file: /home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_multi.hex
+
+CBSEL[1:0]	Input Image File
+     2'b00	/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_fast.hex
+     2'b01	/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_fast_reverse.hex
+     2'b10	/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_slow.hex
+     2'b11	/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_slow_reverse.hex

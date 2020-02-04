@@ -1,0 +1,85 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Compiled: Jan 27 2019.
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage routing graph generation ... *****
+This design has 0 global control net(s). See C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow\helloworld.route.rpt for details.
+Routing graph took 1.12708 seconds.
+	Routing graph took 1.127 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 21.764 MB, end = 143.204 MB, delta = 121.44 MB
+	Routing graph peak virtual memory usage = 169.636 MB
+Routing graph resident set memory usage: begin = 28.696 MB, end = 147.564 MB, delta = 118.868 MB
+	Routing graph peak resident set memory usage = 173.876 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1           35              25.65             0.0133
+         2            5              25.65             0.0118
+         3            0              25.65             0.0112
+
+Successfully routed netlist after 3 routing iterations.
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 7159683
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.route'
+Routing took 0.0982443 seconds.
+	Routing took 0.098 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 143.204 MB, end = 144.94 MB, delta = 1.736 MB
+	Routing peak virtual memory usage = 172.168 MB
+Routing resident set memory usage: begin = 147.572 MB, end = 148.324 MB, delta = 0.752 MB
+	Routing peak resident set memory usage = 173.876 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+NOTE: The timing data is not final.
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+clk                25.788          38.777     (R-R)
+
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+clk              clk                  20.000        -5.788     (R-R)
+
+
+final timing analysis took 0.0354825 seconds.
+	final timing analysis took 0.036 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 144.94 MB, end = 144.94 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 172.168 MB
+final timing analysis resident set memory usage: begin = 148.336 MB, end = 148.62 MB, delta = 0.284 MB
+	final timing analysis peak resident set memory usage = 173.876 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.interface.csv'.
+Successfully processed interface constraints file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.interface.csv".
+Finished writing bitstream file C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.lbf.
+Bitstream generation took 0.128998 seconds.
+	Bitstream generation took 0.128 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 144.94 MB, end = 154.74 MB, delta = 9.8 MB
+	Bitstream generation peak virtual memory usage = 172.168 MB
+Bitstream generation resident set memory usage: begin = 148.628 MB, end = 159.04 MB, delta = 10.412 MB
+	Bitstream generation peak resident set memory usage = 173.876 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 7.4792 seconds.
+	The entire flow of EFX_PNR took 7.479 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 8.236 MB, end = 37.156 MB, delta = 28.92 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 172.168 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 8.66 MB, end = 44.66 MB, delta = 36 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 173.876 MB

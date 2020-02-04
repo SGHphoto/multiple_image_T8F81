@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Date: Tue Feb 04 14:57:01 2020
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T8F81
+Top-level Entity Name: helloworld
+Elapsed time for routing: 0 hours 0 minutes 0 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 7 seconds

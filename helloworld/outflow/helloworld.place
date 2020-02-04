@@ -1,0 +1,40 @@
+Netlist file: C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.net   Architecture file: C:/Efinity/2018.4/arch/./arch_oph_77x162_b3_d1.xml
+Array size: 77 x 162 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+counter[4]~FF	17	80	0	#0
+counter[2]~FF	17	78	0	#1
+counter[11]~FF	17	87	0	#2
+counter[0]~FF	17	55	0	#3
+counter[7]~FF	17	83	0	#4
+counter[13]~FF	17	89	0	#5
+counter[9]~FF	17	85	0	#6
+counter[6]~FF	17	82	0	#7
+counter[3]~FF	17	79	0	#8
+counter[8]~FF	17	84	0	#9
+mem		21	82	0	#10
+counter[1]~FF	17	77	0	#11
+counter[10]~FF	17	86	0	#12
+counter[12]~FF	17	88	0	#13
+counter[5]~FF	17	81	0	#14
+rstn		0	74	1	#15
+CLKBUF__0	77	85	0	#16
+clk		78	85	1	#17
+led[2]		0	92	0	#18
+LUT__153	10	59	0	#19
+LUT__152	3	77	0	#20
+LUT__151	12	95	0	#21
+LUT__149	24	105	0	#22
+LUT__145	17	58	0	#23
+LUT__143	18	87	0	#24
+led[0]		0	32	0	#25
+LUT__144	17	60	0	#26
+LUT__146	17	49	0	#27
+VCC		29	114	0	#28
+LUT__150	9	97	0	#29
+LUT__142	14	82	0	#30
+GND		66	36	0	#31
+led[1]		0	55	0	#32
+led[3]		0	97	0	#33
+led[4]		0	105	0	#34

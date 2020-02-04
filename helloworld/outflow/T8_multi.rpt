@@ -1,0 +1,11 @@
+**** Efinity Programming Tool Generation Report *****
+
+Time: 2020-02-04 15:57
+Generated Multi Image output file: C:\Efinity\2018.4\project\multiple_image_programming\helloworld\outflow\T8_multi.hex
+Device: T8/T4
+Image type: external
+CBSEL[1:0]  Flash Address  Length      Input Image File
+     2'b00  0x00000000     0x0002a544  C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld_8.hex
+     2'b01  0x0002b000     0x0002a544  C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld_10.hex
+     2'b10  0x00056000     0x0002a544  C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld_12.hex
+     2'b11  0x00081000     0x0002a544  C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld_14.hex

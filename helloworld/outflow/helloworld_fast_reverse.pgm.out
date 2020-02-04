@@ -1,0 +1,14 @@
+
+Efinix FPGA Programmer.
+Version: 2018.0.86 
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+Compiled: Apr 26 2018.
+
+Using source file "/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_fast_reverse.hex"
+Writing "/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/outflow/helloworld_fast_reverse.hex" to Flash memory... Success!
+Resetting FPGA device... Efinity Programmer took 10.2972 seconds.
+	Efinity Programmer took 10.29 seconds (approximately) in total CPU time.
+Efinity Programmer virtual memory usage: begin = 61.524 MB, end = 146.66 MB, delta = 85.136 MB
+Efinity Programmer resident set memory usage: begin = 5.236 MB, end = 11.192 MB, delta = 5.956 MB
+	Efinity Programmer peak resident set memory usage = 13.46 MB

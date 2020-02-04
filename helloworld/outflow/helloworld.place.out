@@ -1,0 +1,262 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2018.4.285 
+Compiled: Jan 27 2019.
+
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0193517 seconds.
+	VDB Netlist Checker took 0.02 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 12.956 MB, end = 12.964 MB, delta = 0.008 MB
+	VDB Netlist Checker peak virtual memory usage = 66.252 MB
+VDB Netlist Checker resident set memory usage: begin = 16.148 MB, end = 16.284 MB, delta = 0.136 MB
+	VDB Netlist Checker peak resident set memory usage = 54.78 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.interface.csv'.
+Successfully processed interface constraints file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.vdb".
+Netlist pre-processing took 0.040806 seconds.
+	Netlist pre-processing took 0.04 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.936 MB, end = 12.992 MB, delta = 0.056 MB
+	Netlist pre-processing peak virtual memory usage = 66.252 MB
+Netlist pre-processing resident set memory usage: begin = 15.86 MB, end = 16.552 MB, delta = 0.692 MB
+	Netlist pre-processing peak resident set memory usage = 54.78 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+SetupClusteredData num_clusters=35
+Generate proto netlist for file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.net_proto" took 0.001 seconds
+Creating IO constraints file 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.io_place'
+Packing took 0.078175 seconds.
+	Packing took 0.078 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 12.992 MB, end = 15.992 MB, delta = 3 MB
+	Packing peak virtual memory usage = 66.252 MB
+Packing resident set memory usage: begin = 16.572 MB, end = 19.964 MB, delta = 3.392 MB
+	Packing peak resident set memory usage = 58.38 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.net_proto
+Read proto netlist for file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.net_proto" took 0 seconds
+Setup net and block data structure took 0.011 seconds
+Packed netlist loading took 0.0320478 seconds.
+	Packed netlist loading took 0.033 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 14.86 MB, end = 17.228 MB, delta = 2.368 MB
+	Packed netlist loading peak virtual memory usage = 66.252 MB
+Packed netlist loading resident set memory usage: begin = 17.544 MB, end = 20.252 MB, delta = 2.708 MB
+	Packed netlist loading peak resident set memory usage = 59.316 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+FPGA Resource Usage...
+	Netlist      0	blocks of type: <EMPTY>
+	Netlist      7	blocks of type: io
+	Netlist      0	blocks of type: eftio
+	Netlist      1	blocks of type: gbuf_block
+	Netlist      0	blocks of type: gbuf_ctrl_block
+	Netlist      12	blocks of type: efl
+	Netlist      14	blocks of type: eft
+	Netlist      1	blocks of type: memory
+	Netlist      0	blocks of type: mult
+
+***** Ending stage pre-placement *****
+
+SDC file 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.sdc' parsed successfully.
+1 clocks (including virtual clocks), 2 inputs and 5 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.interface.csv'.
+Successfully processed interface constraints file "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.interface.csv".
+Writing IO placement constraints to 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow\helloworld.interface.io'.
+
+Reading placement constraints from 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow\helloworld.interface.io'.
+
+Reading placement constraints from 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_pnr\helloworld.io_place'.
+WARNING(1): The dedicated control pad CTRLL_74 at (0 74) is used by an non-control net rstn.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+Placing core ... done
+Legalizing ... done
+Starting annealer
+
+ ----------     -------  --------------     -------
+  Iteration     BB Cost  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         624           14391        30.0
+          1         905           15460        30.0
+          2         846           15460        30.0
+          3        1038           15460        30.0
+          4        1153           15458        30.0
+          5         845           14314        30.0
+          6         841           14314        30.0
+          7         712           14314        30.0
+          8         767           14314        30.0
+          9         882           13800        30.0
+         10        1018           13129        30.0
+         11         992           12912        30.0
+         12        1114           12912        30.0
+         13         875           12912        30.0
+         14         947           11654        30.0
+         15         777           11654        30.0
+         16         827           11645        30.0
+         17         845           10530        30.0
+         18         871           10530        30.0
+         19         803           10530        30.0
+         20         839           10530        30.0
+         21         807           10530        30.0
+         22         735           10308        30.0
+         23         691           10308        30.0
+         24         719           10308        30.0
+         25         647           10308        30.0
+         26         645           10308        30.0
+         27         603           10308        30.0
+         28         607           10308        30.0
+         29         623           10308        30.0
+         30         617           10308        30.0
+         31         669           10308        30.0
+         32         699           10308        30.0
+         33         605           10308        30.0
+         34         569           10308        30.0
+         35         593           10308        30.0
+         36         530           10361        30.0
+         37         577            9292        30.0
+         38         525            9292        30.0
+         39         539            9292        30.0
+         40         573            9292        30.0
+         41         572            9292        30.0
+         42         566            9292        30.0
+         43         574            9292        30.0
+         44         525            9181        30.0
+         45         541            9181        30.0
+         46         503            9181        30.0
+         47         503            9181        30.0
+         48         509            9181        30.0
+         49         535            9181        30.0
+         50         551            9181        30.0
+         51         518            9181        30.0
+         52         494            9181        30.0
+         53         500            9181        30.0
+         54         500            9181        30.0
+         55         500            9181        30.0
+         56         496            9181        30.0
+         57         506            9181        30.0
+         58         510            9181        30.0
+         59         500            9181        30.0
+         60         508            9181        30.0
+         61         506            9181        30.0
+         62         501            9352        30.0
+         63         501            9352        30.0
+         64         505            9042        30.0
+         65         505            9042        30.0
+         66         505            9042        30.0
+         67         503            9042        30.0
+         68         503            9042        30.0
+         69         505            9042        30.0
+         70         505            9042        30.0
+         71         507            9115        30.0
+         72         507            9115        30.0
+         73         491           10608        30.0
+         74         491           10608        30.0
+         75         491           10608        30.0
+         76         491           10608        30.0
+         77         490            9445        30.0
+         78         500           12100        30.0
+         79         503           11614        30.0
+         80         503           11614        30.0
+         81         503           11614        30.0
+         82         505           11614        30.0
+         83         505           11614        30.0
+         84         503           11614        30.0
+         85         503           11614        30.0
+         86         503           11614        30.0
+         87         543           11990        30.0
+         88         543           11990        30.0
+         89         543           11990        30.0
+         90         543           11990        30.0
+         91         543           11990        30.0
+         92         543           11990        30.0
+         93         543           11990        30.0
+         94         543           11990        30.0
+         95         486           14151        30.0
+         96         514           13137        30.0
+         97         513           12837        30.0
+         98         511           12837        30.0
+         99         511           12837        30.0
+        100         473           13127        30.0
+        101         473           13127        30.0
+        102         473           13127        30.0
+        103         518           12083        30.0
+        104         518           12083        30.0
+        105         509           12083        30.0
+        106         509           12083        30.0
+        107         509           12083        30.0
+        108         509           12083        30.0
+        109         509           12083        30.0
+        110         509           12083        30.0
+        111         469           13127        30.0
+        112         503           13338        30.0
+        113         503           13338        30.0
+        114         503           13338        30.0
+        115         503           13338        30.0
+        116         503           13338        30.0
+        117         503           13338        30.0
+        118         503           13338        30.0
+        119         554           13618        30.0
+        120         560           12954        30.0
+        121         560           12954        30.0
+        122         551           12954        30.0
+        123         553           14651        30.0
+        124         553           14651        30.0
+        125         541           14651        30.0
+        126         519           13605        30.0
+        127         506           12602        30.0
+        128         666           12764        30.0
+        129         507           12407        30.0
+        130         498           12407        30.0
+        131         498           12407        30.0
+        132         498           12407        30.0
+        133         498           12407        30.0
+        134         498           12407        30.0
+        135         498           12407        30.0
+        136         498           12407        30.0
+        137         753           11857        30.0
+        138         727           11857        30.0
+        139         714           11857        30.0
+        140         714           11857        30.0
+        141         711           11857        30.0
+        142         686           11857        30.0
+        143         633           11516        30.0
+        144         633           11516        30.0
+        145         633           11516        30.0
+        146         633           11516        30.0
+Placement successful: 27 cells are placed
+
+Reading placement constraints from 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.qplace'.
+Finish Realign Types (6 blocks need type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 24.7181 ns
+Successfully created FPGA place file 'C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.place'
+Placement took 4.51042 seconds.
+	Placement took 4.51 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 17.228 MB, end = 21.764 MB, delta = 4.536 MB
+	Placement peak virtual memory usage = 66.252 MB
+Placement resident set memory usage: begin = 21.076 MB, end = 28.696 MB, delta = 7.62 MB
+	Placement peak resident set memory usage = 68.38 MB
+***** Ending stage placement *****

@@ -1,0 +1,1166 @@
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 69) expression size 14 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 39512KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 45528KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 48, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 73524KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 73524KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 74488KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	26
+[EFX-0000 INFO] EFX_LUT4        : 	53
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 69) expression size 14 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 48, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 114768KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	26
+[EFX-0000 INFO] EFX_LUT4        : 	53
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 69) expression size 14 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 48, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 113024KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	26
+[EFX-0000 INFO] EFX_LUT4        : 	53
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 22 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 69) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 57, lvl: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 132080KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	44
+[EFX-0000 INFO] EFX_LUT4        : 	62
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	22
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 107, lvl: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 145760KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	80
+[EFX-0000 INFO] EFX_LUT4        : 	112
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	40
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 27) result of this ** operation does not fit in 32 bits (VERI-2145)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 203, lvl: 5
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 184124KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	152
+[EFX-0000 INFO] EFX_LUT4        : 	208
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	76
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 14 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 69) expression size 15 truncated to fit in target size 14 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 51, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112448KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	28
+[EFX-0000 INFO] EFX_LUT4        : 	56
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	14
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 69) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 41, lvl: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 131540KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	32
+[EFX-0000 INFO] EFX_LUT4        : 	46
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	16
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 66) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 69) expression size 14 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 48, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	26
+[EFX-0000 INFO] EFX_LUT4        : 	53
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 67) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 17, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0008 VERI-INFO] Found 1 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	14
+[EFX-0000 INFO] EFX_LUT4        : 	22
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 67) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 17, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133080KB)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0008 VERI-INFO] Found 1 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	14
+[EFX-0000 INFO] EFX_LUT4        : 	22
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0006 VERI-ERROR] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 15) syntax error near parameter (VERI-1137)
+[EFX-0006 VERI-ERROR] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 15) Verilog 2000 keyword parameter used in incorrect context (VERI-2344)
+[EFX-0019 ERROR] Verific analysis of source file '/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v' failed.
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 67) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 17, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	14
+[EFX-0000 INFO] EFX_LUT4        : 	22
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 67) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 17, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 133592KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	14
+[EFX-0000 INFO] EFX_LUT4        : 	22
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 67) expression size 32 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 17, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134132KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	14
+[EFX-0000 INFO] EFX_LUT4        : 	24
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 14 truncated to fit in target size 13 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 17, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 134648KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	12
+[EFX-0000 INFO] EFX_LUT4        : 	22
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	13
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "/home/ylloo/project/sw/external/efinity/2018.0/sim_models/vhdl/packages" (VHDL-1504)
+[EFX-0008 VERI-INFO] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Memory blocks pre-synthesis begin
+[EFX-0000 INFO] ... Memory blocks pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, node: 20, lvl: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 136184KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] ================ 
+[EFX-0000 INFO] EFX_ADD         : 	15
+[EFX-0000 INFO] EFX_LUT4        : 	25
+[EFX-0000 INFO] EFX_MULT        : 	0
+[EFX-0000 INFO] EFX_FF          : 	16
+[EFX-0000 INFO] EFX_LATCH       : 	0
+[EFX-0000 INFO] EFX_RAM_4K      : 	0
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	0
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] EFX_GBUF        : 	0
+[EFX-0000 INFO] EFX_IOBUF       : 	0
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 6, ed: 22, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	15
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	16
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 6, ed: 22, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	15
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	16
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 6, ed: 22, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	15
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	16
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 6, ed: 22, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	15
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	16
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 19 truncated to fit in target size 18 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 6, ed: 24, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	17
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	18
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 15 truncated to fit in target size 14 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 5, ed: 19, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	13
+[EFX-0000 INFO] EFX_LUT4        : 	10
+[EFX-0000 INFO] EFX_FF          : 	14
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 13 truncated to fit in target size 12 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 4, ed: 16, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	11
+[EFX-0000 INFO] EFX_LUT4        : 	9
+[EFX-0000 INFO] EFX_FF          : 	12
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0008 VERI-INFO] The default vhdl library search path is now "C:/Efinity/2018.4/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 14) compiling module 'helloworld' (VERI-1018)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 70) expression size 15 truncated to fit in target size 14 (VERI-1209)
+[EFX-0007 VERI-WARNING] (C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v 36) net 'mem' does not have a driver (VDB-1002)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 45) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 59) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 75) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 87) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 95) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 130) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 190) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 262) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 367) compiling module 'RAMB5' (VERI-1018)
+[EFX-0008 VERI-INFO] (C:/Efinity/2018.4/sim_models/maplib/efinix_maplib.v 429) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "helloworld"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "helloworld" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] LS, strategy: 3, nd: 5, ed: 19, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	13
+[EFX-0000 INFO] EFX_LUT4        : 	10
+[EFX-0000 INFO] EFX_FF          : 	14
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

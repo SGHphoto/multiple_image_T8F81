@@ -1,0 +1,3 @@
+[EFX-0006 VERI-ERROR] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 15) syntax error near parameter (VERI-1137)
+[EFX-0006 VERI-ERROR] (/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v 15) Verilog 2000 keyword parameter used in incorrect context (VERI-2344)
+[EFX-0019 ERROR] Verific analysis of source file '/home/ylloo/project/sw/external/efinity/2018.0/project/multiple_image_programming/helloworld/helloworld.v' failed.

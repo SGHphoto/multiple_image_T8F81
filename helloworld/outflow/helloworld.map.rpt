@@ -1,0 +1,61 @@
+Synthesis report for project helloworld
+Date : Feb 4 2020  14:56:54
+Copyright (C) 2013 - 2018 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : helloworld
+### ### File List (begin) ### ### ###
+(verilog) C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+HS : Hierarchical pre-synthesis module : "helloworld"
+@ "C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.v (14)"
+	DELAY_SIZE = 10
+	WIDTH = 5
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 1
+Enable signal <vcc>, number of controlling flip flops: 14
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T8F81
+project : helloworld
+root : helloworld
+I : C:/Efinity/2018.4/project/multiple_image_programming/helloworld
+output-dir : C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow
+work-dir : C:/Efinity/2018.4/project/multiple_image_programming/helloworld/work_syn
+write-efx-verilog : C:/Efinity/2018.4/project/multiple_image_programming/helloworld/outflow/helloworld.map.v
+binary-db : C:/Efinity/2018.4/project/multiple_image_programming/helloworld/helloworld.vdb
+insert-ios : 0
+num_mult18 : -1
+num_ram_5k : -1
+syn_options : mode=speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	2
+OUTPUT PORTS    : 	5
+
+EFX_ADD         : 	13
+EFX_LUT4        : 	10
+EFX_FF          : 	14
+EFX_RAM_5K      : 	1
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 1s
+Elapsed synthesis time : 1s
